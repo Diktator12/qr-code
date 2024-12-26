@@ -1,0 +1,90 @@
+body {
+  margin: 12px 0 0 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 15px;
+  /* min-width: 300px; */
+  text-wrap: wrap;
+}
+
+.button {
+  width: 11.5em;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 14px 16px;
+  font-family: 'Arial';
+  cursor: pointer;
+}
+
+.block1 {
+  display: flex;
+  gap: 10px;
+}
+
+.block2 {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 1077px) {
+  .button {
+    width: 16.5em;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 20px 22px;
+    font-family: 'Arial';
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 850px) {
+  .button {
+    width: 13.5em;
+  }
+}
+
+@media (max-width: 720px) {
+  .button {
+    width: 11.5em;
+  }
+}
+
+@media (max-width: 630px) {
+  .button {
+    width: 9.5em;
+  }
+}
+
+@media (max-width: 550px) {
+  .button {
+    width: 8.5em;
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 445px) {
+  .button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .button {
+    font-size: 16px;
+  }
+}
